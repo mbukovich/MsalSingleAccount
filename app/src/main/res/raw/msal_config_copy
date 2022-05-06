@@ -1,0 +1,19 @@
+{
+  "client_id": "<Client ID Here>",
+  "authorization_user_agent": "DEFAULT",
+  "redirect_uri": "<Redirect URI Here>",
+  "broker_redirect_uri_registered" : true,
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADMyOrg",
+        "tenant_id": "<Tenant ID Here>"
+      }
+    }
+  ],
+  "logging" : {
+    "log_level" : "VERBOSE",
+    "logcat_enabled" : true
+  }
+}
